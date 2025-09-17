@@ -1,4 +1,4 @@
-package sec01;
+package ch02.sec01;
 
 public class VariableExchangeExample {
 	

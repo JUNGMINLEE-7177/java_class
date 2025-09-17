@@ -1,6 +1,6 @@
-package sec02;
+package ch02.sec02;
 
-public class IntegerLiteralexample {
+public class IntegerLIteralExample {
 	
 	public static void main(String[] args) {
 		int var1 = 0b1011;	//2진수
