@@ -12,7 +12,10 @@ public class Account {
 	}
 	
 	
-	public void setAccount() {
+	public void setAccount(String accountNum, String accountOwner, int balance) {
+		this.accountNum = accountNum;
+		this.accountOwner = accountOwner;
+		this.balance = balance;
 		
 	}
 
