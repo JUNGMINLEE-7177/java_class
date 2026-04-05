@@ -1,15 +1,17 @@
 package ch06.problem.n20;
 
 public class Account {
-	public String accountNum;
-	public String accountOwner;
-	public int balance;
+	private String accountNum;
+	private String accountOwner;
+	private int balance;
 	
+	/*
 	public Account(String accountNum, String accountOwner, int balance) {
 		this.accountNum = accountNum;
 		this.accountOwner = accountOwner;
 		this.balance = balance;
 	}
+	*/
 	
 	
 	public void setAccount(String accountNum, String accountOwner, int balance) {
@@ -18,5 +20,21 @@ public class Account {
 		this.balance = balance;
 		
 	}
+	
+	public void modifyBalance(int balance) {
+		this.balance += balance;
+	}
+	
+	public String getAccountNum() {
+		return accountNum;
+	}
+	
+	public String getAccountOwner(){
+		return accountOwner;
+	}
+	
+	public int getBalance() {
+		return balance;
+	}
+}	
 
-}
