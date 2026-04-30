@@ -1,4 +1,4 @@
-package ch07.sec08.sec02;
+package ch07.sec08.exam02;
 
 public class DriveExample {
 	public static void main(String[] args) {

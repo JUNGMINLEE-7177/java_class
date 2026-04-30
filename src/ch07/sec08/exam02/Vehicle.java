@@ -1,4 +1,4 @@
-package ch07.sec08.sec02;
+package ch07.sec08.exam02;
 
 public class Vehicle {
 	//메소드 선언
