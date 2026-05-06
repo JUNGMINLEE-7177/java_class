@@ -11,6 +11,12 @@ public class MultiInterfaceImplExample {
 		Searchable searchable = new SmartTelevision();
 		//Searchable 인터페이스에 선언된 추상 메소드만 호출 가능
 		searchable.search("http://www.youtube.com");
+		
+		
+		//실험
+		SmartTelevision test = new SmartTelevision();
+		test.turnOn();
+		test.search("naver");
 	}
 
 }
