@@ -12,5 +12,6 @@ public class Person {
 		String name = "한겨울";
 		Member member = creatable.create(id, name);
 		return member;
-	}
+	};
+}
 
